@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24144" started-at="2020-05-26T02:58:02Z" finished-at="2020-05-26T02:58:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24144" started-at="2020-05-26T02:58:02Z" finished-at="2020-05-26T02:58:26Z">
+      <class name="com.training.sanity.tests.UNF_063UniformAdminAddProd">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.UNF_063UniformAdminAddProd@5419f379]" name="setUpBeforeClass" is-config="true" duration-ms="14" started-at="2020-05-26T08:28:02Z" finished-at="2020-05-26T08:28:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.UNF_063UniformAdminAddProd@5419f379]" name="setUp" is-config="true" duration-ms="14195" started-at="2020-05-26T08:28:02Z" finished-at="2020-05-26T08:28:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="adminLogin()[pri:0, instance:com.training.sanity.tests.UNF_063UniformAdminAddProd@5419f379]" name="adminLogin" duration-ms="2133" started-at="2020-05-26T08:28:16Z" finished-at="2020-05-26T08:28:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLogin -->
+        <test-method status="PASS" signature="adminAddProd()[pri:0, instance:com.training.sanity.tests.UNF_063UniformAdminAddProd@5419f379]" name="adminAddProd" duration-ms="5909" started-at="2020-05-26T08:28:19Z" depends-on-methods="com.training.sanity.tests.UNF_063UniformAdminAddProd.adminLogin" finished-at="2020-05-26T08:28:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminAddProd -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.UNF_063UniformAdminAddProd@5419f379]" name="tearDown" is-config="true" duration-ms="1872" started-at="2020-05-26T08:28:24Z" finished-at="2020-05-26T08:28:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.UNF_063UniformAdminAddProd -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
